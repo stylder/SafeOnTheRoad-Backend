@@ -1,0 +1,50 @@
+{
+  "author": "stylder@gmail.com",
+  "name": "API Server",
+  "description": "Safe On The Road API Server",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "actionhero": "17.0.3",
+    "fakeredis": "latest",
+    "fs-extra": "^4.0.1",
+    "ioredis": "latest",
+    "md5": "^2.2.1",
+    "mongoose": "^4.11.7",
+    "mongoose-role": "^2.0.1",
+    "nodemailer": "^4.0.1",
+    "pn": "^1.0.0",
+    "svg2png": "^4.1.1",
+    "uuid": "^3.1.0",
+    "ws": "latest"
+  },
+  "devDependencies": {
+    "cross-env": "latest",
+    "chai": "latest",
+    "dirty-chai": "latest",
+    "mocha": "latest",
+    "standard": "latest"
+  },
+  "scripts": {
+    "start": "actionhero start",
+    "actionhero": "actionhero",
+    "pretest": "standard",
+    "test": "cross-env NODE_ENV=test mocha"
+  },
+  "standard": {
+    "ignore": [
+      "public/javascript/actionheroClient.*"
+    ],
+    "globals": [
+      "describe",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  }
+}
