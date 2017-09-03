@@ -3,6 +3,17 @@
   "name": "API Server",
   "description": "Safe On The Road API Server",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/stylder/SafeOnTheRoad-Backend.git"
+  },
+
+  "keywords": [
+    "APIRest"
+  ],
+  "homepage": "http://google.com.mx",
+
   "engines": {
     "node": ">=6.0.0"
   },

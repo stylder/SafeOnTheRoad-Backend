@@ -13,19 +13,22 @@ El desarrollo web.....
 ## Requisitos
 - [NodeJS v6.*.*](https://nodejs.org/es/)
 - [MongoDB v3.*.*](https://www.mongodb.com/es)
+- [Redis](https://askubuntu.com/questions/868848/how-to-install-redis-on-ubuntu-16-04)
 
 
+
+
+## Instalar el Framework ActionHeroJS
+Se instala el framework de manera global para que se pueda ejecutar el comando actionhero. Dicha instalación se realiza con el comando:
+```bash
+npm install -g actionhero
+```
 
 
 ## ¿Cómo descargar las dependencias?
 Con el siguiente comando descargamos las dependencias indicadas en package.json. Cabe mencionar que exisitirá un package.json en cada carpeta (Frontend/Backend)
 ```bash
 npm install
-```
-## Instalar el Framework ActionHeroJS
-Se instala el framework de manera global para que se pueda ejecutar el comando actionhero. Dicha instalación se realiza con el comando:
-```bash
-npm install -g actionhero
 ```
 
 ## ¿Cómo correr el servidor?
