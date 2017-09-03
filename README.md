@@ -8,6 +8,23 @@
 - [NodeJS v6.*.*](https://nodejs.org/es/)
 - [MongoDB v3.*.*](https://www.mongodb.com/es)
 
+
+## Crear Base de Datos
+Entrar a la consola de mongo con:
+```bash
+mongo
+```
+
+Crear la base de datos
+```bash
+use safeontheroad
+```
+
+Verificar que se haya creado la base de datos:
+```bash
+use safeontheroad
+```
+
 ## Instalar el Framework ActionHeroJS
 Se instala el framework de manera global para que se pueda ejecutar el comando
 actionhero. Dicha instalación se realiza con el comando:
