@@ -41,7 +41,7 @@ module.exports = {
           user: user
         }
         api.session.save(data, session, function (error) {
-          next(error,session)
+          next(error, session)
         })
       },
 
@@ -79,6 +79,7 @@ module.exports = {
                 session = {}
               }
               if (session.loggedIn !== true) {
+                data.connection.rawConnection.responseHttpCode = 401
                 next(new Error('You need to be authorized for this action'))
               } else {
                 next()

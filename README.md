@@ -7,6 +7,7 @@
 ## Requisitos
 - [NodeJS v6.*.*](https://nodejs.org/es/)
 - [MongoDB v3.*.*](https://www.mongodb.com/es)
+- [Redis](https://askubuntu.com/questions/868848/how-to-install-redis-on-ubuntu-16-04)
 
 
 ## Crear Base de Datos

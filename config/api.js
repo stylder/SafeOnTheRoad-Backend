@@ -1,10 +1,10 @@
-'use strict';
+'use strict'
 
-const path = require('path');
+const path = require('path')
 
 exports['default'] = {
   general: function (api) {
-    const packageJSON = require(api.projectRoot + path.sep + 'package.json');
+    const packageJSON = require(api.projectRoot + path.sep + 'package.json')
 
     return {
       apiVersion: packageJSON.version,
@@ -64,7 +64,7 @@ exports['default'] = {
       }
     }
   }
-};
+}
 
 exports.test = {
   general: function (api) {
@@ -85,7 +85,7 @@ exports.test = {
       rpcTimeout: 3000
     }
   }
-};
+}
 
 exports.production = {
   general: function (api) {
@@ -94,4 +94,4 @@ exports.production = {
       developmentMode: false
     }
   }
-};
+}
